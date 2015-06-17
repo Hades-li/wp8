@@ -1,0 +1,64 @@
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\App.xbf
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\MainPage.xbf
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\test2.xr.xml
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\test2.exe
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\test2.pdb
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\resources.pri
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\AppxManifest.xml
+D:\developSpace\wp8Space\wp8-test\test2\bin\Debug\test2.build.appxrecipe
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\App.g.i.cs
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\MainPage.g.i.cs
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\XamlTypeInfo.g.cs
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\App.xaml
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\MainPage.xaml
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\App.xbf
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\MainPage.xbf
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\XamlSaveStateFile.xml
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\test2.exe
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\test2.pdb
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\priconfig.xml
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\priconfig.xml.intermediate
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\layout.resfiles
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\layout.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\resources.resfiles
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\resources.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\pri.resfiles
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\pri.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\qualifiers.txt
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\qualifiers.txt.intermediate
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\developSpace\wp8Space\wp8-test\test2\obj\Debug\ProjectArchitectures.txt
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\App.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\MainPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\test2.xr.xml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\test2.exe
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\test2.pdb
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\resources.pri
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\AppxManifest.xml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\bin\Debug\test2.build.appxrecipe
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\App.g.i.cs
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\App.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\MainPage.g.i.cs
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\MainPage.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\XamlTypeInfo.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\App.xaml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\MainPage.xaml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\App.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\MainPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\XamlSaveStateFile.xml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\test2.exe
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\test2.pdb
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\priconfig.xml
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\layout.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\resources.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\pri.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\qualifiers.txt
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\wp8 workspace\wp8-test\test2\obj\Debug\ProjectArchitectures.txt

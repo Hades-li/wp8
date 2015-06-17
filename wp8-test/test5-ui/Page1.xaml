@@ -1,0 +1,63 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="test5_ui.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="控件" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="方块移动" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <StackPanel Grid.Row="1">
+            <StackPanel.Resources>
+                <Storyboard x:Name="mySB" FillBehavior="HoldEnd" Completed="mySB_Completed">
+                    <DoubleAnimation Duration="0:0:10" Storyboard.TargetName="myPgBar" Storyboard.TargetProperty="Value" From="0" To="100"/>
+                </Storyboard>
+            </StackPanel.Resources>
+            <TextBlock Name="myPgTxt" Text="正在处理，稍等...." Visibility="Collapsed" />
+            <ProgressBar Name="myPgBar" Minimum="0" Maximum="100" Margin="0,40,0,0">
+                <ProgressBar.Foreground>
+                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                        <GradientStop Color="Red" Offset="0"/>
+                        <GradientStop Color="Yellow" Offset="1"/>
+                    </LinearGradientBrush>
+                </ProgressBar.Foreground>
+            </ProgressBar>
+            <Button Name="pgBtn" Content="开始" Click="pgBtn_Click"/>
+        </StackPanel>
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,0,12,0">
+            <Rectangle Fill="YellowGreen" 
+                       Width="100" 
+                       Height="100" 
+                       HorizontalAlignment="Left" 
+                       VerticalAlignment="Top" 
+                       Margin="12,12,0,0"
+                       ManipulationDelta="Rectangle_ManipulationDelta">
+                <Rectangle.RenderTransform>
+                    <TranslateTransform x:Name="myTT"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

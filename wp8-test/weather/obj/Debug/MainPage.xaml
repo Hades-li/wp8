@@ -1,0 +1,133 @@
+﻿<Page
+    x:Class="weather.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:weather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding weather,RelativeSource={RelativeSource Self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="164*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#7e96b0" Offset="0"/>
+                    <GradientStop Color="#3e617f" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <!--风力-->
+            <Grid Height="34" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="26*"/>
+                    <ColumnDefinition Width="82*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="14*"/>
+                    <RowDefinition Height="14*"/>
+                </Grid.RowDefinitions>
+                <Rectangle Width="24" Height="16" Grid.Column="0" Grid.Row="0" Fill="Red"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+            </Grid>
+            <!--湿度-->
+            <Grid Height="34" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="26*"/>
+                    <ColumnDefinition Width="82*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="14*"/>
+                    <RowDefinition Height="14*"/>
+                </Grid.RowDefinitions>
+                <Rectangle Width="24" Height="16" Grid.Column="0" Grid.Row="0" Fill="Red"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="湿度" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+            </Grid>
+            <!--空气质量-->
+            <Grid Height="34" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="26*"/>
+                    <ColumnDefinition Width="82*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="16*"/>
+                    <RowDefinition Height="16*"/>
+                </Grid.RowDefinitions>
+                <Rectangle Width="24" Height="16" Grid.Column="0" Grid.Row="0" Fill="Red"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="空气质量" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+            </Grid>
+        </Grid>
+        <StackPanel Name="sp" Grid.Row="1">
+            <StackPanel.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#183351" Offset="0"/>
+                    <GradientStop Color="#336290" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Canvas Margin="0,0,0,0" Width="17" Height="10">
+                <Polygon
+                    Points="0,0 17,0 8,10"
+                    Stroke="#262810"
+                    StrokeThickness="1"
+                    HorizontalAlignment="Center"
+                    Canvas.ZIndex="-1">
+                    <Polygon.Fill>
+                        <SolidColorBrush Color="#f8a049"/>
+                    </Polygon.Fill>
+                </Polygon>
+            </Canvas>
+            <FlipView  Margin="0,15,0,0" Height="{Binding ElementName=sp, Path=Height}" SelectedIndex="0">
+                <FlipViewItem>
+                    <StackPanel>
+                        <TextBlock FontSize="18" HorizontalAlignment="Center">
+            				<Run Text="今天"/>
+                        </TextBlock>
+                        <TextBlock FontSize="84" HorizontalAlignment="Center">
+            				<Run Text="15°"/>
+                        </TextBlock>
+                    </StackPanel>
+                </FlipViewItem>
+                <FlipViewItem>
+                    <StackPanel>
+                        <TextBlock FontSize="18" HorizontalAlignment="Center">
+            				<Run Text="明天"/>
+                        </TextBlock>
+                        <TextBlock FontSize="78" HorizontalAlignment="Center">
+            				<Run Text="35°"/>
+                        </TextBlock>
+                    </StackPanel>
+                </FlipViewItem>
+            </FlipView>
+        </StackPanel>
+        <StackPanel Grid.Row="0">
+            <StackPanel.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#c9a27b" Offset="0"/>
+                    <GradientStop Color="#eda551" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock FontSize="14" Margin="0,24,0,20"  TextAlignment="Center">
+        		<Run FontWeight="Bold" Text="Toady"/>
+        		<Run Text=" , "/>
+        		<Run Text="{Binding days[0].date}" />
+            </TextBlock>
+            <Image Width="150" Height="150" HorizontalAlignment="Center" Source="Assets/Logo.scale-240.png"/>
+            <TextBlock Text="{Binding days[0].weather}" Margin="0,0,0,10" FontSize="28" FontWeight="Bold" TextAlignment="Center" />
+            <TextBlock Text="{Binding city}" FontSize="14" TextAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Page>
+

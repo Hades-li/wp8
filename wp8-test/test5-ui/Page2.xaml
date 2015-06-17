@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="test5_ui.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uc="clr-namespace:test5_ui"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+           
+        </StackPanel>        
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBlock Text="地址：" FontSize="24" VerticalAlignment="Center"/>
+            <TextBox Name="urlInput" Width="300" FontSize="24"/>
+            <Button Name="toUrlBtn" Content="转到" Click="toUrlBtn_Click"/>
+        </StackPanel>
+        <phone:WebBrowser Name="wb" Grid.Row="2" Margin="12" NavigationFailed="wb_NavigationFailed" Navigating="wb_Navigating" LoadCompleted="wb_LoadCompleted"></phone:WebBrowser>
+        <TextBlock FontSize="24" Name="statuTxt" Grid.Row="3"/>
+    </Grid>
+</phone:PhoneApplicationPage>

@@ -1,0 +1,12 @@
+﻿<xapCache source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Bin\Debug\test5_ui_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/3/17 21:10:19">
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\obj\Debug\test5-ui.dll" archivePath="test5-ui.dll" lastWriteTime="2015/3/17 21:10:17" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/9/12 17:44:12" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/9/2 10:21:58" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/9/12 17:44:12" />
+</xapCache>

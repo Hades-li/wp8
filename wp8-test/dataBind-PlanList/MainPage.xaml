@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="dataBind_PlanList.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:dataBind_PlanList"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:converter="using:dataBind_PlanList.converts"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <converter:IsEnableBtn_convert x:Key="IsEnableBtn_convert"/>
+        <converter:ProgressBar_convert x:Key="ProgressBar_convert"/>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Name="command_add" Icon="Add" Label="增加" Click="command_add_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,12,0,28">
+            <TextBlock Text="计划" FontSize="20" Margin="12,0,12,0" FontFamily="Microsoft Himalaya"/>
+            <TextBlock Text="计划列表" Margin="9,12,0,0" FontSize="48" FontFamily="SimHei" />
+        </StackPanel>
+        <!--内容主体-->
+        <Grid Grid.Row="1">
+            <ListView ItemsSource="{Binding}">
+                <ListView.Items>                    
+                    <ListViewItem>                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="7*"/>
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="12,0,12,0">
+                                <TextBlock Name="title" FontSize="24" Text="标题" />
+                                <TextBlock Name="desc" FontSize="14" Padding="12,0,0,0" Width="220" Height="36" Margin="12,0,0,0" Text="这里是写有各种描述的信息公司的刘德华和斯蒂芬闪电似的" TextWrapping="Wrap" />
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <Button Name="complete_btn" Content="完成"/>
+                            </StackPanel>
+                        </Grid>                                   
+                    </ListViewItem>
+                </ListView.Items>
+                <!--模版-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,12,0,12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="7*"/>
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Margin="12,0,12,0">
+                                <TextBlock Name="title" FontSize="24" Text="{Binding Path=Title}" />
+                                <TextBlock Name="desc" FontSize="14" Padding="12,0,0,0" Width="220" Height="36" Margin="12,0,0,0" Text="{Binding Path=Desc}" TextWrapping="Wrap" />
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <Button Name="complete-btn" Content="完成" Command="{Binding commandBtn}" CommandParameter="{Binding}" IsEnabled="{Binding dates,Converter={StaticResource IsEnableBtn_convert}}" />
+                                <ProgressBar Value="{Binding dates, Converter={StaticResource ProgressBar_convert}}" />
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>

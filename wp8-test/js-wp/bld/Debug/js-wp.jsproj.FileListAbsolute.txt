@@ -1,0 +1,15 @@
+D:\developSpace\wp8Space\wp8-test\js-wp\bin\Debug\ReverseMap\resources.pri
+D:\developSpace\wp8Space\wp8-test\js-wp\bin\Debug\AppxManifest.xml
+D:\developSpace\wp8Space\wp8-test\js-wp\bin\Debug\js-wp.build.appxrecipe
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\priconfig.xml
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\priconfig.xml.intermediate
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\layout.resfiles
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\layout.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\resources.resfiles
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\resources.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\pri.resfiles
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\pri.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\qualifiers.txt
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\qualifiers.txt.intermediate
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,234 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="test5_ui.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <phone:PhoneApplicationPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="BorderThickness" Value="4"/>
+            <Setter Property="BorderBrush" Value="Yellow"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="st1" >
+            <Setter Property="FontSize" Value="36"/>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 本地化说明:
+            若要本地化显示的字符串，请将其值复制到应用程序的非特定语言资源文件(AppResources.resx)
+            中的适当命名的键，然后
+            将属性的引号之间的硬编码文本值
+            替换为其路径指向该字符串名称的绑定子句。
+
+            例如:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            此绑定指向模板的名为“ApplicationTitle”的字符串资源。
+
+            在“项目属性”选项卡中添加受支持的语言将会为
+            每种语言创建一个新的 resx 文件，该文件可以包含 UI 字符串的翻译值
+            。这些示例中的绑定将导致在运行时从
+            与应用程序的 CurrentUICulture 匹配的 .resx 文件中
+            提取属性的值。
+         -->
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="控件" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="文字输入框" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                        <RepeatButton Name="rBtnDes" Content="-" Delay="500" Interval="50" Click="RepeatButton_Click"/>
+                        <TextBlock Name="rTbNum" Text="0" FontSize="24" VerticalAlignment="Center" ></TextBlock>
+                        <RepeatButton Name="rBtnAdd" Content="+" Delay="500" Interval="50" Click="RepeatButton_Click" />
+                        <HyperlinkButton Content="跳转第二页" NavigateUri="/Page2.xaml"/>
+                    </StackPanel>
+                    <phone:Pivot Title="这是一个pivot">
+                        <phone:PivotItem Header="第一页">
+                            <ListBox>
+                                <ListBoxItem Content="第一项" />
+                                <ListBoxItem Content="第二项" />
+                                <ListBoxItem Content="第三项" />
+                                <ListBoxItem Content="第四项" />
+                            </ListBox>
+                        </phone:PivotItem>
+                        <phone:PivotItem Header="第二页">
+                            <ListBox>
+                                <TextBlock>项目5</TextBlock>
+                                <TextBlock>项目6</TextBlock>
+                                <TextBlock>项目7</TextBlock>
+                                <TextBlock>项目8</TextBlock>
+                            </ListBox>
+                        </phone:PivotItem>
+                    </phone:Pivot>
+                    <StackPanel>
+                        <TextBlock Text="以下是一个文本输入框" Style="{StaticResource st1}" />
+                        <TextBox Text="请输入字符" Height="200" 
+                                     VerticalScrollBarVisibility="Auto"
+                                     TextWrapping="Wrap"
+                                     HorizontalAlignment="Stretch"
+                                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                     >
+                            <TextBox.InputScope>
+                                <InputScope>
+                                    <InputScopeName NameValue="DateDay"/>
+                                </InputScope>
+                            </TextBox.InputScope>
+                        </TextBox>
+                    </StackPanel>
+                    <Image Source="Resources/head.jpg"  Stretch="UniformToFill"/>
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="12">
+                        <Image Source="Resources/head.jpg" Stretch="Uniform"/>
+                    </ScrollViewer>
+                    <Border BorderBrush="GreenYellow" BorderThickness="4" CornerRadius="3" Margin="0,12,0,12">
+                        <StackPanel Name="checkPanel">
+                            <CheckBox Content="白菜" Name="cbk1" IsChecked="true" />
+                            <CheckBox Content="青菜" Name="cbk2" />
+                            <CheckBox Content="胡椒" Name="cbk3" />
+                            <Button Content="确定" Name="submit" Click="myClick" />
+                        </StackPanel>
+                    </Border>
+                    <Border BorderBrush="GreenYellow" BorderThickness="12" CornerRadius="4">
+                        <Button Content="带有边框的按钮" BorderBrush="Red" />
+                    </Border>
+                    <Border BorderBrush="Red" BorderThickness="1">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="Aqua" Offset="0"/>
+                                <GradientStop Color="Blue" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Button Content="带有边框的按钮"/>
+                    </Border>
+                    <TextBlock FontSize="24" FontFamily="Microsoft YaHei UI" FontWeight="Normal">文本框</TextBlock>
+                    <TextBlock FontSize="24" FontFamily="Microsoft YaHei UI" FontWeight="Normal" Foreground="#FF212153">蓝色文本框</TextBlock>
+                    <TextBlock FontSize="24" FontFamily="Microsoft YaHei UI" FontWeight="Normal" Foreground="Green" TextWrapping="Wrap">绿色文本框</TextBlock>
+                    <TextBlock FontSize="24" HorizontalAlignment="Left">
+                        第一行<LineBreak/>
+                        第二行<LineBreak/>
+                        第三行
+                    </TextBlock>
+                    <TextBlock FontSize="24">
+                        <Italic>斜体字</Italic><Bold>加粗字体</Bold>
+                    </TextBlock>
+                    <TextBlock Text="对角线渐变" FontSize="60" FontFamily="/test5-ui;component/fonts/创艺简中圆.TTF#创艺简中圆">
+                        <TextBlock.Foreground>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="Red" Offset="0" />
+                                <GradientStop Color="Yellow" Offset="0.5"/>
+                                <GradientStop Color="Blue" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock Text="横向渐变" FontSize="60" FontFamily="/test5-ui;component/fonts/创艺简中圆.TTF#创艺简中圆">
+                        <TextBlock.Foreground>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                <GradientStop Color="Red" Offset="0" />
+                                <GradientStop Color="Yellow" Offset="0.5"/>
+                                <GradientStop Color="Blue" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock Text="垂直渐变" FontSize="60" FontFamily="/test5-ui;component/fonts/创艺简中圆.TTF#创艺简中圆">
+                        <TextBlock.Foreground>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Color="Red" Offset="0" />
+                                <GradientStop Color="Yellow" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock Text="径向渐变" FontSize="60" FontFamily="/test5-ui;component/fonts/创艺简中圆.TTF#创艺简中圆">
+                        <TextBlock.Foreground>
+                            <RadialGradientBrush Center="0.5,0.5">
+                                <GradientStop Color="Red" Offset="0" />
+                                <GradientStop Color="Yellow" Offset="1"/>
+                            </RadialGradientBrush>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock>
+                            <Run FontFamily="SimSun" FontSize="24" FontWeight="Bold" Foreground="SeaGreen">物料清单</Run>
+                            <LineBreak/>
+                            <Run FontFamily="Microsoft YaHei Light" Foreground="Blue">--------------------------------------</Run>
+                            <LineBreak/>
+                            <Run FontFamily="Microsoft yaHei" Foreground="Aqua">鞋子</Run>
+                            <LineBreak/>
+                            <Run FontFamily="Microsoft YaHei" FontSize="40" Text="袜子">
+                                <Run.Foreground>
+                                    <RadialGradientBrush>
+                                        <GradientStop Color="Red" Offset="0" />
+                                        <GradientStop Color="Yellow" Offset="1"/>
+                                    </RadialGradientBrush>
+                                </Run.Foreground>
+                            </Run>
+                            <LineBreak/>
+                            <Run FontFamily="Microsoft YaHei" FontSize="40" Text="袜子">
+                                <Run.Foreground>
+                                    <RadialGradientBrush>
+                                        <GradientStop Color="Red" Offset="0" />
+                                        <GradientStop Color="Yellow" Offset="1"/>
+                                    </RadialGradientBrush>
+                                </Run.Foreground>
+                            </Run>
+                    </TextBlock>
+                    <StackPanel>
+                        <Button Click="myClick" HorizontalContentAlignment="Stretch">
+                            <Button.Content>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Ellipse Width="50" Height="50" Grid.Column="0">
+                                        <Ellipse.Fill>
+                                            <RadialGradientBrush>
+                                                <GradientStop Color="Red" Offset="0"/>
+                                                <GradientStop Color="red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                    <TextBlock Text="按钮" Grid.Column="1" Margin="24,0,0,0" VerticalAlignment="Center"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+                        <Button Click="myClick" Content="带图片">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Resources/head.jpg" Stretch="UniformToFill"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Content="按钮三" Click="myClick"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <!--取消注释，以显示对齐网格，从而帮助确保
+            控件在公用边界上对齐。图像在系统栏中显示时的
+            上边距为 -32px。如果隐藏了系统栏，则将此值设为 0
+            (或完全删除边距)。
+
+            在发送之前删除此 XAML 和图像本身。-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+    </Grid>
+
+</phone:PhoneApplicationPage>

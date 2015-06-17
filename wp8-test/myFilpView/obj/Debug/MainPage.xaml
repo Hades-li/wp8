@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="myFilpView.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:myFilpView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Style x:Key="FilpView-style" TargetType="FlipView">           
+            <Setter Property="Height" Value="200" />
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#ffcc00"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="32" Grid.Row="0" Margin="12 0 0 0" VerticalAlignment="Center">我的filpView应用</TextBlock>
+        <FlipView Grid.Row="1" Style="{StaticResource FilpView-style}">
+            <FlipViewItem>
+                
+            </FlipViewItem>
+        </FlipView>
+    </Grid>
+</Page>
+

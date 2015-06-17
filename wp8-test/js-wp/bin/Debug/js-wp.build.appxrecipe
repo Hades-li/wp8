@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WORK-PC</Machine>
+    <WindowsUser>h.jiali2</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b609fd5c-9ecf-4885-8f3f-9640529f53d9</PackageIdentityName>
+    <IntermediateOutputPath>D:\developSpace\wp8Space\wp8-test\js-wp\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\developSpace\wp8Space\wp8-test\js-wp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\css\phone.css">
+      <PackagePath>css\phone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\hubPhone.css">
+      <PackagePath>pages\hub\hubPhone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\item\item.css">
+      <PackagePath>pages\item\item.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\css\ui-themed.css">
+      <PackagePath>css\ui-themed.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\css\ui-themed.theme-dark.css">
+      <PackagePath>css\ui-themed.theme-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\css\ui-themed.theme-light.css">
+      <PackagePath>css\ui-themed.theme-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\SplashScreen.scale-240.png">
+      <PackagePath>images\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\images\gray.png">
+      <PackagePath>images\gray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\hub.js">
+      <PackagePath>pages\hub\hub.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section1Page.js">
+      <PackagePath>pages\hub\section1Page.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section2Page.js">
+      <PackagePath>pages\hub\section2Page.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section3Page.js">
+      <PackagePath>pages\hub\section3Page.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section4Page.js">
+      <PackagePath>pages\hub\section4Page.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\item\item.js">
+      <PackagePath>pages\item\item.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\hub.html">
+      <PackagePath>pages\hub\hub.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section1Page.html">
+      <PackagePath>pages\hub\section1Page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section2Page.html">
+      <PackagePath>pages\hub\section2Page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section3Page.html">
+      <PackagePath>pages\hub\section3Page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\hub\section4Page.html">
+      <PackagePath>pages\hub\section4Page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\pages\item\item.html">
+      <PackagePath>pages\item\item.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\wp8-test\js-wp\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

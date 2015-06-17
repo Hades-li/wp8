@@ -1,0 +1,74 @@
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\App.g.i.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\MainPage.g.i.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\XamlTypeInfo.g.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\App.xaml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\App.xbf
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\XamlSaveStateFile.xml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\MainPage.xaml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\MainPage.xbf
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\App.xbf
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\MainPage.xbf
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.xr.xml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.exe
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.pdb
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\resources.pri
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\AppxManifest.xml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.build.appxrecipe
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\dataBind-PlanList.exe
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\dataBind-PlanList.pdb
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\priconfig.xml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\priconfig.xml.intermediate
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\layout.resfiles
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\layout.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\resources.resfiles
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\resources.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\pri.resfiles
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\pri.resfiles.intermediate
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\qualifiers.txt
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\qualifiers.txt.intermediate
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\ProjectArchitectures.txt
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\planPage.g.i.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\planPage.g.cs
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\bin\Debug\planPage.xbf
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\planPage.xaml
+D:\developSpace\wp8Space\wp8-test\dataBind-PlanList\obj\Debug\planPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\App.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\MainPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\planPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.xr.xml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.exe
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.pdb
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\resources.pri
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\AppxManifest.xml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\bin\Debug\dataBind-PlanList.build.appxrecipe
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\App.g.i.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\App.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\MainPage.g.i.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\MainPage.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\planPage.g.i.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\planPage.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\XamlTypeInfo.g.cs
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\App.xaml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\MainPage.xaml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\planPage.xaml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\App.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\MainPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\planPage.xbf
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\XamlSaveStateFile.xml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\dataBind-PlanList.exe
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\dataBind-PlanList.pdb
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\priconfig.xml
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\layout.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\resources.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\pri.resfiles
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\qualifiers.txt
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\wp8 workspace\wp8-test\dataBind-PlanList\obj\Debug\ProjectArchitectures.txt

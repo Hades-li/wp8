@@ -1,0 +1,12 @@
+﻿<xapCache source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Bin\Debug\test3_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/3/17 21:10:16">
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\obj\Debug\test3.dll" archivePath="test3.dll" lastWriteTime="2015/3/17 21:10:12" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/7/8 16:00:44" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/7/8 10:13:28" />
+  <file source="D:\Develop workspace\wp8 workspace\wp8-test\test3\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/7/8 16:00:44" />
+</xapCache>
