@@ -30,3 +30,35 @@ D:\developSpace\wp8Space\wp8-test\myFilpView\obj\Debug\qualifiers.txt
 D:\developSpace\wp8Space\wp8-test\myFilpView\obj\Debug\qualifiers.txt.intermediate
 D:\developSpace\wp8Space\wp8-test\myFilpView\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\developSpace\wp8Space\wp8-test\myFilpView\obj\Debug\ProjectArchitectures.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\myFilpView.xr.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\myFilpView.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\myFilpView.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\resources.pri
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\AppxManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\bin\Debug\myFilpView.build.appxrecipe
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\App.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\MainPage.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\XamlTypeInfo.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\App.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\XamlSaveStateFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\MainPage.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\myFilpView.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\myFilpView.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\priconfig.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\layout.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\resources.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\pri.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\qualifiers.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\myFilpView\obj\Debug\ProjectArchitectures.txt
