@@ -36,3 +36,22 @@ D:\Develop workspace\wp8 workspace\wp8-test\test6-ui\obj\Debug\test6-ui.csproj.G
 D:\Develop workspace\wp8 workspace\wp8-test\test6-ui\obj\Debug\test6-ui.dll
 D:\Develop workspace\wp8 workspace\wp8-test\test6-ui\obj\Debug\test6-ui.pdb
 D:\Develop workspace\wp8 workspace\wp8-test\test6-ui\obj\Debug\XapCacheFile.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\ApplicationIcon.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\test6-ui.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\test6-ui.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\AppManifest.xaml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\Properties\WMAppManifest.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\Bin\Debug\test6_ui_Debug_AnyCPU.xap
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\test6-ui.g.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\test6_ui.Resources.AppResources.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\test6-ui.csproj.GenerateResource.Cache
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\test6-ui.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\test6-ui.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test6-ui\obj\Debug\XapCacheFile.xml

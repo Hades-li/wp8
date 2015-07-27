@@ -36,3 +36,22 @@ D:\Develop workspace\wp8 workspace\wp8-test\homework2\obj\Debug\homework2.csproj
 D:\Develop workspace\wp8 workspace\wp8-test\homework2\obj\Debug\homework2.dll
 D:\Develop workspace\wp8 workspace\wp8-test\homework2\obj\Debug\homework2.pdb
 D:\Develop workspace\wp8 workspace\wp8-test\homework2\obj\Debug\XapCacheFile.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\ApplicationIcon.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\AppManifest.xaml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\Properties\WMAppManifest.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2_Debug_AnyCPU.xap
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.g.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.Resources.AppResources.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.csproj.GenerateResource.Cache
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\XapCacheFile.xml

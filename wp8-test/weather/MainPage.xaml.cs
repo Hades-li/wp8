@@ -42,7 +42,7 @@ namespace weather
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
             // TODO: 准备此处显示的页面。
-            this.DataContext = await App.ds.getOneWeekWeather();
+            this.DataContext = await App.ds.getWeather();
             //this.DataContext = await App.ds.getOneWeekWeather();//获取weather数据上下文
             // TODO: 如果您的应用程序包含多个页面，请确保
             // 通过注册以下事件来处理硬件“后退”按钮:

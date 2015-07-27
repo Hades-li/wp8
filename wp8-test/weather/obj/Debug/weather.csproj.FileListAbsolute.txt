@@ -62,3 +62,35 @@ D:\Develop workspace\wp8 workspace\wp8-test\weather\obj\Debug\qualifiers.txt
 D:\Develop workspace\wp8 workspace\wp8-test\weather\obj\Debug\qualifiers.txt.intermediate
 D:\Develop workspace\wp8 workspace\wp8-test\weather\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Develop workspace\wp8 workspace\wp8-test\weather\obj\Debug\ProjectArchitectures.txt
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\App.xbf
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\MainPage.xbf
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\weather.xr.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\weather.exe
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\weather.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\resources.pri
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\AppxManifest.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\weather.build.appxrecipe
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\App.g.i.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\MainPage.g.i.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\XamlTypeInfo.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\App.xaml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\MainPage.xaml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\App.xbf
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\MainPage.xbf
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\XamlSaveStateFile.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\weather.exe
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\weather.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\priconfig.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\priconfig.xml.intermediate
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\layout.resfiles
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\layout.resfiles.intermediate
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\resources.resfiles
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\resources.resfiles.intermediate
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\pri.resfiles
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\pri.resfiles.intermediate
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\qualifiers.txt
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\qualifiers.txt.intermediate
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\obj\Debug\ProjectArchitectures.txt

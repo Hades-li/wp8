@@ -47,8 +47,11 @@ namespace weather
 
                 Uri uri = new Uri(filePath);
                 StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uri);//通过Uri读取安装包中的文件
+               
                 string jsonString = await FileIO.ReadTextAsync(file);//将json文件读取成字符串
-                Debug.WriteLine("json字符串:" + jsonString);
+
+                
+                //Debug.WriteLine("json字符串:" + jsonString);
                 return jsonString;
             }
             catch (Exception e)
@@ -56,7 +59,7 @@ namespace weather
                 Debug.WriteLine("报错信息:" + e);
             }
 
-            return "读取失败";
+            return "load false";
         }
         //从网络读取天气的信息JSON的信息
         public async Task<string> HttpLoadJSON(string url)
@@ -78,12 +81,13 @@ namespace weather
 
         public const string httpUrl = "http://api.36wu.com/Weather/GetMoreWeather?district=南京&format=json";
         //获得一周天气
-        public async Task<Weather> getOneWeekWeather()
+        public async Task<Weather> getWeather()
         {
-            //string weatherJson = await LoadJSON("ms-appx:///json/weather.json");
-            string weatherJson = await HttpLoadJSON(httpUrl);
+            string weatherJson = await LoadJSON("ms-appx:///json/weather.json");
+            //string weatherJson = await HttpLoadJSON(httpUrl);
             if (weatherJson != "load false")
             {
+                
                 JsonObject jo = JsonObject.Parse(weatherJson);
                 Weather weather = new Weather();//创建weather
                 weather.statues = (int)jo.GetNamedNumber("status");

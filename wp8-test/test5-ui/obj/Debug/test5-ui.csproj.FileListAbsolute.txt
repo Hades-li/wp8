@@ -42,3 +42,25 @@ D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\obj\Debug\test5-ui.csproj.G
 D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\obj\Debug\test5-ui.dll
 D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\obj\Debug\test5-ui.pdb
 D:\Develop workspace\wp8 workspace\wp8-test\test5-ui\obj\Debug\XapCacheFile.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\ApplicationIcon.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\test5-ui.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\test5-ui.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\AppManifest.xaml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\Properties\WMAppManifest.xml
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\Bin\Debug\test5_ui_Debug_AnyCPU.xap
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\App.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\MainPage.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\Page1.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\Page2.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\WindowsPhoneControl1.g.cs
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\test5-ui.g.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\test5_ui.Resources.AppResources.resources
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\test5-ui.csproj.GenerateResource.Cache
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\test5-ui.dll
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\test5-ui.pdb
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test5-ui\obj\Debug\XapCacheFile.xml

@@ -6,7 +6,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    DataContext="{Binding weather,RelativeSource={RelativeSource Self}}"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
@@ -70,27 +69,39 @@
                 <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
             </Grid>
         </Grid>
-        <StackPanel Name="sp" Grid.Row="1">
+        <StackPanel Name="sp" Grid.Row="1" Height="186" Margin="0,0,0,113" Grid.RowSpan="2" VerticalAlignment="Bottom">
             <StackPanel.Background>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                     <GradientStop Color="#183351" Offset="0"/>
                     <GradientStop Color="#336290" Offset="1"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <Canvas Margin="0,0,0,0" Width="17" Height="10">
+            <Canvas Margin="0,-1,0,0" Width="17" Height="10">
                 <Polygon
                     Points="0,0 17,0 8,10"
                     Stroke="#262810"
                     StrokeThickness="1"
                     HorizontalAlignment="Center"
-                    Canvas.ZIndex="-1">
+                    Canvas.ZIndex="500">
                     <Polygon.Fill>
                         <SolidColorBrush Color="#f8a049"/>
                     </Polygon.Fill>
                 </Polygon>
             </Canvas>
-            <FlipView  Margin="0,15,0,0" Height="{Binding ElementName=sp, Path=Height}" SelectedIndex="0">
-                <FlipViewItem>
+            <FlipView  Margin="0,15,0,0" Height="{Binding ElementName=sp, Path=Height}" ItemsSource="{Binding days}">
+                <FlipView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock FontSize="18" HorizontalAlignment="Center">
+            				<Run Text="{Binding date}"/>
+                            </TextBlock>
+                            <TextBlock FontSize="84" HorizontalAlignment="Center">
+            				<Run Text="{Binding temp}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </FlipView.ItemTemplate>
+                <!--<FlipViewItem>
                     <StackPanel>
                         <TextBlock FontSize="18" HorizontalAlignment="Center">
             				<Run Text="今天"/>
@@ -109,7 +120,7 @@
             				<Run Text="35°"/>
                         </TextBlock>
                     </StackPanel>
-                </FlipViewItem>
+                </FlipViewItem>-->
             </FlipView>
         </StackPanel>
         <StackPanel Grid.Row="0">
