@@ -9,6 +9,8 @@ using Windows.Storage;
 using Windows.Data.Json;
 using System.Collections.ObjectModel;
 using System.Net.Http;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace weather
 {
@@ -23,12 +25,13 @@ namespace weather
         public string img_1 { get; set; }
     }
 
-    public class Weather
+    public class Weather : INotifyPropertyChanged
     {
         //每天的天气数据
         public int statues {get;set;}
         public string message {get;set;}
         public string city {get;set;}
+        public DateTime CurDate{get;set;}
         public ObservableCollection<Day> days{get;set;}
 
         public Weather()
@@ -36,9 +39,19 @@ namespace weather
             days = new ObservableCollection<Day>();
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
     }
     public class dataSource
     {
+        public Weather weather = null;
         //本地读取json
         public async Task<string> LoadJSON(string filePath)
         {
@@ -89,11 +102,12 @@ namespace weather
             {
                 
                 JsonObject jo = JsonObject.Parse(weatherJson);
-                Weather weather = new Weather();//创建weather
+                weather = new Weather();//创建weather
                 weather.statues = (int)jo.GetNamedNumber("status");
                 weather.message = jo.GetNamedString("message");
                 JsonObject jsData = jo.GetNamedObject("data");
                 weather.city = jsData.GetNamedString("city");
+                
                 Debug.WriteLine("数据读取状态:" + weather.statues);
                 Debug.WriteLine("数据信息:" + weather.message);
                 Debug.WriteLine("城市:" + weather.city);
@@ -113,6 +127,7 @@ namespace weather
                         day.img_1 = jsData.GetNamedString("img_" + (2 * i));
                         Debug.WriteLine("第" + i + "天");
                         Debug.WriteLine("日期：" + day.date);
+                        Debug.WriteLine("日期(prase)：" + DateTime.Parse(day.date));
                         Debug.WriteLine("温度：" + day.temp);
                         Debug.WriteLine("气候：" + day.weather);
                         Debug.WriteLine("风状况：" + day.wind);

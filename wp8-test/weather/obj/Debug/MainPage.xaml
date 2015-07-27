@@ -6,8 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:convert="using:weather.Convert">
+    <Page.Resources>
+        <convert:Week_convert x:Key="week_convert" />
+    </Page.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="300*"/>
@@ -88,12 +91,12 @@
                     </Polygon.Fill>
                 </Polygon>
             </Canvas>
-            <FlipView  Margin="0,15,0,0" Height="{Binding ElementName=sp, Path=Height}" ItemsSource="{Binding days}">
+            <FlipView Name="FlipView_temp" Margin="0,15,0,0" Height="{Binding ElementName=sp, Path=Height}" ItemsSource="{Binding days}">
                 <FlipView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock FontSize="18" HorizontalAlignment="Center">
-            				<Run Text="{Binding date}"/>
+            				<Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
                             </TextBlock>
                             <TextBlock FontSize="84" HorizontalAlignment="Center">
             				<Run Text="{Binding temp}"/>
@@ -133,10 +136,10 @@
             <TextBlock FontSize="14" Margin="0,24,0,20"  TextAlignment="Center">
         		<Run FontWeight="Bold" Text="Toady"/>
         		<Run Text=" , "/>
-        		<Run Text="{Binding days[0].date}" />
+        		<Run Text="{Binding ElementName=FlipView_temp, Path=SelectedItem.date}" />
             </TextBlock>
             <Image Width="150" Height="150" HorizontalAlignment="Center" Source="Assets/Logo.scale-240.png"/>
-            <TextBlock Text="{Binding days[0].weather}" Margin="0,0,0,10" FontSize="28" FontWeight="Bold" TextAlignment="Center" />
+            <TextBlock Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather}" Margin="0,10,0,10" FontSize="28" FontWeight="Bold" TextAlignment="Center" />
             <TextBlock Text="{Binding city}" FontSize="14" TextAlignment="Center" />
         </StackPanel>
     </Grid>
