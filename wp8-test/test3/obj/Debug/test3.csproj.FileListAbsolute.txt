@@ -67,3 +67,26 @@ D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test3\obj\Debug\test3.csproj.Genera
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test3\obj\Debug\test3.dll
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test3\obj\Debug\test3.pdb
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test3\obj\Debug\XapCacheFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\ApplicationIcon.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\test3.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\test3.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\AppManifest.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\Properties\WMAppManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\Bin\Debug\test3_Debug_AnyCPU.xap
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\about.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\Music.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\SecondPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\sub\photo.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\test3.g.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\test3.Resources.AppResources.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\test3.csproj.GenerateResource.Cache
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\test3.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\test3.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\test3\obj\Debug\XapCacheFile.xml

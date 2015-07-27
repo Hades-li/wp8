@@ -1,1 +1,1 @@
-D:\developSpace\wp8Space\GitHub\wp8\wp8-test\dataBind-PlanList\dataBind-PlanList.csproj;neutral
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-PlanList\dataBind-PlanList.csproj;neutral

@@ -55,3 +55,22 @@ D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.cspro
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.dll
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.pdb
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\homework2\obj\Debug\XapCacheFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\ApplicationIcon.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\AppManifest.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\Properties\WMAppManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\Bin\Debug\homework2_Debug_AnyCPU.xap
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.g.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.Resources.AppResources.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.csproj.GenerateResource.Cache
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\homework2.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\homework2\obj\Debug\XapCacheFile.xml

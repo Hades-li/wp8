@@ -106,3 +106,39 @@ D:\developSpace\wp8Space\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MultipleQua
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\ProjectArchitectures.txt
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MDILProjectFiles.xml
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\XapCacheFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\ApplicationIcon.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\resources.pri
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\AppxManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1.build.appxrecipe
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Properties\WMAppManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\AppManifest.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1_Debug_AnyCPU.xap
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DetailsPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.g.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.Resources.AppResources.resources
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.csproj.GenerateResource.Cache
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.dll
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\priconfig.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\layout.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\resources.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\pri.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\qualifiers.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\ProjectArchitectures.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MDILProjectFiles.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\XapCacheFile.xml
