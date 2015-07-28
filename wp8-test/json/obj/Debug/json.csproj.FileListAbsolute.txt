@@ -94,3 +94,35 @@ D:\developSpace\wp8Space\GitHub\wp8\wp8-test\json\obj\Debug\qualifiers.txt
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\json\obj\Debug\qualifiers.txt.intermediate
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\json\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\json\obj\Debug\ProjectArchitectures.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\json.xr.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\json.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\json.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\resources.pri
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\AppxManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\bin\Debug\json.build.appxrecipe
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\App.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\MainPage.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\XamlTypeInfo.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\App.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\MainPage.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\XamlSaveStateFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\json.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\json.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\priconfig.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\layout.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\resources.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\pri.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\qualifiers.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\json\obj\Debug\ProjectArchitectures.txt

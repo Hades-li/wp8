@@ -134,7 +134,7 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             <TextBlock FontSize="14" Margin="0,24,0,20"  TextAlignment="Center">
-        		<Run FontWeight="Bold" Text="Toady"/>
+        		<Run FontWeight="Bold" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.date, Converter={StaticResource week_convert}}"/>
         		<Run Text=" , "/>
         		<Run Text="{Binding ElementName=FlipView_temp, Path=SelectedItem.date}" />
             </TextBlock>

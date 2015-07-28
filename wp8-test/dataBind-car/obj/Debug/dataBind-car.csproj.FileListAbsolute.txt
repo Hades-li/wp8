@@ -94,3 +94,35 @@ D:\developSpace\wp8Space\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\qualifiers.t
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\qualifiers.txt.intermediate
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\developSpace\wp8Space\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\ProjectArchitectures.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\dataBind-car.xr.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\dataBind-car.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\dataBind-car.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\resources.pri
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\AppxManifest.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\bin\Debug\dataBind-car.build.appxrecipe
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\App.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\App.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MainPage.g.i.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MainPage.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\XamlTypeInfo.g.cs
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\App.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MainPage.xaml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\App.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MainPage.xbf
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\XamlSaveStateFile.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\dataBind-car.exe
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\dataBind-car.pdb
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\priconfig.xml
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\priconfig.xml.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\layout.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\layout.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\resources.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\resources.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\pri.resfiles
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\pri.resfiles.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\qualifiers.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\qualifiers.txt.intermediate
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Develop workspace\GitHub\wp8\wp8-test\dataBind-car\obj\Debug\ProjectArchitectures.txt
