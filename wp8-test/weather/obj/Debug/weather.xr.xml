@@ -11,6 +11,7 @@
     <RootPropertyPathName Name="Height" />
     <RootPropertyPathName Name="days" />
     <RootPropertyPathName Name="temp" />
+    <RootPropertyPathName Name="wind" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -21,6 +22,7 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="weather.Convert.Week_convert" />
+    <RootType FullName="weather.Convert.Weather_convert" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
@@ -71,17 +73,18 @@
       <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Source" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
       <RootProperty Name="Path" />
       <RootProperty Name="Converter" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Text" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
@@ -112,11 +115,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="weather.MainPage" />
   </Roots.RootTypes>

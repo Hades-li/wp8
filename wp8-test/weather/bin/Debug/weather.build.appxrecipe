@@ -19,11 +19,23 @@
     <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\bin\Debug\weather.exe">
       <PackagePath>weather.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\json\weather.json">
-      <PackagePath>json\weather.json</PackagePath>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\cloud.png">
+      <PackagePath>Assets\weather-icons\cloud.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\json\text.txt">
-      <PackagePath>json\text.txt</PackagePath>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\glass.png">
+      <PackagePath>Assets\weather-icons\glass.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\humidity.png">
+      <PackagePath>Assets\weather-icons\humidity.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\sun.png">
+      <PackagePath>Assets\weather-icons\sun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\sun_cloud.png">
+      <PackagePath>Assets\weather-icons\sun_cloud.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\wind.png">
+      <PackagePath>Assets\weather-icons\wind.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
@@ -49,8 +61,11 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\Assets\weather-icons\Cloud-Sun.svg">
-      <PackagePath>Assets\weather-icons\Cloud-Sun.svg</PackagePath>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\json\weather.json">
+      <PackagePath>json\weather.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\json\text.txt">
+      <PackagePath>json\text.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\weather\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

@@ -1,6 +1,6 @@
-﻿<xapCache source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/7/27 22:47:39">
+﻿<xapCache source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\DataBoundApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/8/2 17:11:39">
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="2015/7/27 22:47:38" />
-  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.dll" archivePath="DataBoundApp1.dll" lastWriteTime="2015/7/27 22:47:37" />
+  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\DataBoundApp1.dll" archivePath="DataBoundApp1.dll" lastWriteTime="2015/8/2 17:11:37" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2015/7/27 22:43:38" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="2015/7/27 22:43:38" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="2015/7/27 22:43:38" />
@@ -22,7 +22,7 @@
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2015/7/27 22:43:38" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2015/7/27 22:43:38" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2015/7/27 22:43:38" />
-  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2015/7/27 22:47:39" />
-  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2015/7/27 22:47:39" />
+  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2015/8/2 17:11:39" />
+  <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2015/8/2 17:11:39" />
   <file source="D:\Develop workspace\GitHub\wp8\wp8-test\DataBoundApp1\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2015/7/27 22:47:38" />
 </xapCache>

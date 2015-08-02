@@ -46,4 +46,29 @@ namespace weather.Convert
  	        throw new NotImplementedException();
         }
     }
+
+    class Weather_convert : IValueConverter
+    {
+
+        public object Convert(object value, Type targetType, object parameter, string language)
+        {
+            String base_url = "/Assets/weather-icons/";
+            String w_str = value.ToString();
+            switch(w_str)
+            {
+                case "晴":
+                    return base_url + "sun.png";
+                case "多云":
+                    return base_url + "cloud.png";
+                case "晴转多云":
+                    return base_url + "sun_cloud.png";
+            }
+            throw new NotImplementedException();
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, string language)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
