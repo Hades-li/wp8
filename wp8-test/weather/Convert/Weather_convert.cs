@@ -52,16 +52,17 @@ namespace weather.Convert
 
         public object Convert(object value, Type targetType, object parameter, string language)
         {
-            String base_url = "/Assets/weather-icons/";
+
+            String base_url = "ms-appx:///Assets/weather-icons/";
             String w_str = value.ToString();
             switch(w_str)
             {
                 case "晴":
-                    return base_url + "sun.png";
+                    return new Uri(base_url + "sun.png");
                 case "多云":
-                    return base_url + "cloud.png";
+                    return new Uri(base_url + "cloud.png");
                 case "晴转多云":
-                    return base_url + "sun_cloud.png";
+                    return new Uri(base_url + "sun_cloud.png");
             }
             throw new NotImplementedException();
         }

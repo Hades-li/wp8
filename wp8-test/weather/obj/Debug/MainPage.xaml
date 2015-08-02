@@ -41,7 +41,12 @@
                     <RowDefinition Height="14*"/>
                 </Grid.RowDefinitions>
                 <!--<Rectangle Width="24" Height="16" Grid.Column="0" Grid.Row="0" Fill="Red"/>-->
-                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/wind.png"/>
+                <!--<Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/wind.png"/>-->
+                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0">
+                    <Image.Source>
+                        <BitmapImage DecodePixelWidth="32" DecodePixelHeight="32" UriSource="/Assets/weather-icons/wind.png"/>
+                    </Image.Source>
+                </Image>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16"/>
                 <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.wind}" FontSize="16"/>
             </Grid>
@@ -140,7 +145,11 @@
         		<Run Text=" , "/>
         		<Run Text="{Binding ElementName=FlipView_temp, Path=SelectedItem.date}" />
             </TextBlock>
-            <Image Width="150" Height="150" HorizontalAlignment="Center" Source="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather,Converter={StaticResource weather_convert}}"/>
+            <Image Width="150" Height="150" HorizontalAlignment="Center" >
+                <Image.Source>
+                    <BitmapImage DecodePixelHeight="150" DecodePixelWidth="150" UriSource="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather,Converter={StaticResource weather_convert}}"/>
+                </Image.Source>
+            </Image>
             <TextBlock Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather}" Margin="0,10,0,10" FontSize="28" FontWeight="Bold" TextAlignment="Center" />
             <TextBlock Text="{Binding city}" FontSize="14" TextAlignment="Center" />
         </StackPanel>
