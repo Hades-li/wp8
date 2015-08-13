@@ -3,7 +3,12 @@ Assets\SmallLogo.scale-240.png
 Assets\SplashScreen.scale-240.png
 Assets\Square71x71Logo.scale-240.png
 Assets\StoreLogo.scale-240.png
-Assets\weather-icons\Cloud-Sun.svg
+Assets\weather-icons\cloud.png
+Assets\weather-icons\glass.png
+Assets\weather-icons\humidity.png
+Assets\weather-icons\sun.png
+Assets\weather-icons\sun_cloud.png
+Assets\weather-icons\wind.png
 Assets\WideLogo.scale-240.png
 App.xbf
 MainPage.xbf
