@@ -103,10 +103,14 @@
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock FontSize="18" HorizontalAlignment="Center">
-            				<Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
+            				    <Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
                             </TextBlock>
                             <TextBlock FontSize="84" HorizontalAlignment="Center">
-            				<Run Text="{Binding hightemp}"/>
+            				    <Run Text="{Binding hightemp}"/>
+                            </TextBlock>
+                            <TextBlock FontSize="14" HorizontalAlignment="Center" Foreground="#b0d7f8"  >
+                                <Run Text="最低温 "/>
+                                <Run Text="{Binding lowtemp}"/>
                             </TextBlock>
                         </StackPanel>
                     </DataTemplate>
@@ -118,6 +122,10 @@
                         </TextBlock>
                         <TextBlock FontSize="84" HorizontalAlignment="Center">
             				<Run Text="15°"/>
+                        </TextBlock>
+                        <TextBlock FontSize="14" HorizontalAlignment="Center" Foreground="#b0d7f8"  >
+                            <Run Text="最低温 "/>
+                            <Run Text="15°"/>
                         </TextBlock>
                     </StackPanel>
                 </FlipViewItem>
