@@ -10,8 +10,8 @@
     <RootPropertyPathName Name="date" />
     <RootPropertyPathName Name="Height" />
     <RootPropertyPathName Name="days" />
-    <RootPropertyPathName Name="temp" />
-    <RootPropertyPathName Name="wind" />
+    <RootPropertyPathName Name="hightemp" />
+    <RootPropertyPathName Name="fl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />

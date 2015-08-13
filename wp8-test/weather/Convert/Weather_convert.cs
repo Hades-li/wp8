@@ -63,6 +63,8 @@ namespace weather.Convert
                     return new Uri(base_url + "cloud.png");
                 case "晴转多云":
                     return new Uri(base_url + "sun_cloud.png");
+                default:
+                    return new Uri("ms-appx:///Assets/Logo.scale-240.png");
             }
             throw new NotImplementedException();
         }

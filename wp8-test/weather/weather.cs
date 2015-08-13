@@ -17,9 +17,10 @@ namespace weather
     public class Day
     {
         public string date { get; set; }
-        public string temp { get; set; }
+        public string hightemp { get; set; }
+        public string lowtemp { get; set; }
         public string weather { get; set; }
-        public string wind { get; set; }
+        public string fx { get; set; }
         public string fl { get; set; }
         public string img_0 { get; set; }
         public string img_1 { get; set; }
@@ -28,8 +29,8 @@ namespace weather
     public class Weather : INotifyPropertyChanged
     {
         //每天的天气数据
-        public int statues {get;set;}
-        public string message {get;set;}
+        public string statues {get;set;}
+        //public string message {get;set;}
         public string city {get;set;}
         public DateTime CurDate{get;set;}
         public ObservableCollection<Day> days{get;set;}
@@ -53,19 +54,17 @@ namespace weather
     {
         public Weather weather = null;
         //本地读取json
-        public async Task<string> LoadJSON(string filePath)
+        public async Task<string> LocalLoadData(string filePath)
         {
             try
             {
 
                 Uri uri = new Uri(filePath);
                 StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uri);//通过Uri读取安装包中的文件
-               
                 string jsonString = await FileIO.ReadTextAsync(file);//将json文件读取成字符串
-
-                
                 //Debug.WriteLine("json字符串:" + jsonString);
                 return jsonString;
+                
             }
             catch (Exception e)
             {
@@ -75,7 +74,7 @@ namespace weather
             return "load false";
         }
         //从网络读取天气的信息JSON的信息
-        public async Task<string> HttpLoadJSON(string url)
+        public async Task<string> HttpLoadData(string url)
         {
             HttpClient hc = new HttpClient();
             Uri uri = new Uri(url);
@@ -96,44 +95,56 @@ namespace weather
         //获得一周天气
         public async Task<Weather> getWeather()
         {
-            string weatherJson = await LoadJSON("ms-appx:///json/weather.json");
+            string weatherJson = await LocalLoadData("ms-appx:///json/baidu_weather.json");
             //string weatherJson = await HttpLoadJSON(httpUrl);
             if (weatherJson != "load false")
             {
-                
-                JsonObject jo = JsonObject.Parse(weatherJson);
                 weather = new Weather();//创建weather
-                weather.statues = (int)jo.GetNamedNumber("status");
-                weather.message = jo.GetNamedString("message");
-                JsonObject jsData = jo.GetNamedObject("data");
-                weather.city = jsData.GetNamedString("city");
+                JsonObject jo = JsonObject.Parse(weatherJson);
+
+                weather.statues = jo.GetNamedString("errMsg");
+
+                JsonObject weatherJo = jo.GetNamedObject("retData");
+                weather.city = weatherJo.GetNamedString("city");
+               
                 
                 Debug.WriteLine("数据读取状态:" + weather.statues);
-                Debug.WriteLine("数据信息:" + weather.message);
                 Debug.WriteLine("城市:" + weather.city);
 
-                //循环获取6天的天气
-                if (weather.statues == 200)
+                
+                if (weather.statues == "success")
                 {
-                    for (int i = 1; i <= 6; i++)
+
+                    //获取今天的气候
+                    JsonObject todayJo = weatherJo.GetNamedObject("today");
+                    Day day = new Day();
+                    day.date = todayJo.GetNamedString("date");
+                    day.hightemp = todayJo.GetNamedString("hightemp");
+                    day.lowtemp = todayJo.GetNamedString("lowtemp");
+                    day.weather = todayJo.GetNamedString("type");
+                    day.fl = todayJo.GetNamedString("fengli");
+                    day.fx = todayJo.GetNamedString("fengxiang");
+                    weather.days.Add(day);
+                    JsonArray ja = weatherJo.GetNamedArray("forecast");
+
+                    //循环获取未来5天的天气
+                    for (int i = 0; i < ja.Count; i++)
                     {
-                        Day day = new Day();
-                        day.date = jsData.GetNamedString("date_" + i);
-                        day.temp = jsData.GetNamedString("temp_" + i);
-                        day.weather = jsData.GetNamedString("weather_" + i);
-                        day.wind = jsData.GetNamedString("wind_" + i);
-                        day.fl = jsData.GetNamedString("fl_" + i);
-                        day.img_0 = jsData.GetNamedString("img_" + (2 * i - 1));
-                        day.img_1 = jsData.GetNamedString("img_" + (2 * i));
+                        day = new Day();
+                        day.date = ja[i].GetObject().GetNamedString("date");
+                        day.hightemp = ja[i].GetObject().GetNamedString("hightemp");
+                        day.lowtemp = ja[i].GetObject().GetNamedString("lowtemp");
+                        day.weather = ja[i].GetObject().GetNamedString("type");
+                        day.fl = ja[i].GetObject().GetNamedString("fengli");
+                        day.fx = ja[i].GetObject().GetNamedString("fengxiang");
+                       
                         Debug.WriteLine("第" + i + "天");
-                        Debug.WriteLine("日期：" + day.date);
                         Debug.WriteLine("日期(prase)：" + DateTime.Parse(day.date));
-                        Debug.WriteLine("温度：" + day.temp);
+                        Debug.WriteLine("温度：" + day.hightemp);
+                        Debug.WriteLine("温度：" + day.lowtemp);
                         Debug.WriteLine("气候：" + day.weather);
-                        Debug.WriteLine("风状况：" + day.wind);
+                        Debug.WriteLine("风向：" + day.fx);
                         Debug.WriteLine("风力：" + day.fl);
-                        Debug.WriteLine("图片1：" + day.img_0);
-                        Debug.WriteLine("图片2：" + day.img_1);
                         weather.days.Add(day);
                     }
                     return weather;

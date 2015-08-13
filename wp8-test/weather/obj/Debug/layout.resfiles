@@ -13,5 +13,6 @@ Assets\WideLogo.scale-240.png
 App.xbf
 MainPage.xbf
 weather.xr.xml
+json\baidu_weather.json
 json\text.txt
 json\weather.json

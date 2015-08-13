@@ -48,7 +48,7 @@
                     </Image.Source>
                 </Image>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.wind}" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.fl}" FontSize="16"/>
             </Grid>
             <!--湿度-->
             <Grid Height="34" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
@@ -106,7 +106,7 @@
             				<Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
                             </TextBlock>
                             <TextBlock FontSize="84" HorizontalAlignment="Center">
-            				<Run Text="{Binding temp}"/>
+            				<Run Text="{Binding hightemp}"/>
                             </TextBlock>
                         </StackPanel>
                     </DataTemplate>
