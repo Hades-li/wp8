@@ -10,19 +10,31 @@
     <RootPropertyPathName Name="date" />
     <RootPropertyPathName Name="Height" />
     <RootPropertyPathName Name="days" />
-    <RootPropertyPathName Name="temp" />
-    <RootPropertyPathName Name="wind" />
+    <RootPropertyPathName Name="lowtemp" />
+    <RootPropertyPathName Name="hightemp" />
+    <RootPropertyPathName Name="fl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Resources" />
+      <RootProperty Name="BottomAppBar" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="weather.Convert.Week_convert" />
     <RootType FullName="weather.Convert.Weather_convert" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="IsCompact" />
+      <RootEvent Name="Click" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
@@ -67,6 +79,7 @@
       <RootProperty Name="Text" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Width" />

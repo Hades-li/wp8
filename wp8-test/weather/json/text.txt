@@ -1,1 +1,173 @@
-﻿
+﻿{
+    "errNum": 0,
+    "errMsg": "success",
+    "retData": {
+        "city": "北京",
+        "cityid": "101010100",
+        "today": {
+            "date": "2015-08-13",
+            "week": "星期四",
+            "curTemp": "29℃",
+            "aqi": "168",
+            "fengxiang": "南风",
+            "fengli": "3-4级",
+            "hightemp": "35℃",
+            "lowtemp": "24℃",
+            "type": "阴",
+            "index": [
+                {
+                    "name": "感冒指数",
+                    "code": "gm",
+                    "index": "",
+                    "details": "各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。",
+                    "otherName": ""
+                },
+                {
+                    "code": "fs",
+                    "details": "紫外线强度较弱，建议涂擦SPF在12-15之间，PA+的防晒护肤品。",
+                    "index": "较弱",
+                    "name": "防晒指数",
+                    "otherName": ""
+                },
+                {
+                    "code": "ct",
+                    "details": "天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。",
+                    "index": "炎热",
+                    "name": "穿衣指数",
+                    "otherName": ""
+                },
+                {
+                    "code": "yd",
+                    "details": "阴天，较适宜进行各种户内外运动。",
+                    "index": "较适宜",
+                    "name": "运动指数",
+                    "otherName": ""
+                },
+                {
+                    "code": "xc",
+                    "details": "较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。",
+                    "index": "较适宜",
+                    "name": "洗车指数",
+                    "otherName": ""
+                },
+                {
+                    "code": "ls",
+                    "details": "天气阴沉，不利于水分的迅速蒸发，不太适宜晾晒。若需要晾晒，请尽量选择通风的地点。",
+                    "index": "不太适宜",
+                    "name": "晾晒指数",
+                    "otherName": ""
+                }
+            ]
+        },
+        "forecast": [
+            {
+                "date": "2015-08-14",
+                "week": "星期五",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "33℃",
+                "lowtemp": "21℃",
+                "type": "阵雨"
+            },
+            {
+                "date": "2015-08-15",
+                "week": "星期六",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "34℃",
+                "lowtemp": "23℃",
+                "type": "晴"
+            },
+            {
+                "date": "2015-08-16",
+                "week": "星期天",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "32℃",
+                "lowtemp": "23℃",
+                "type": "多云"
+            },
+            {
+                "date": "2015-08-17",
+                "week": "星期一",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "30℃",
+                "lowtemp": "21℃",
+                "type": "雷阵雨"
+            }
+        ],
+        "history": [
+            {
+                "date": "2015-08-06",
+                "week": "星期四",
+                "aqi": "133",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "31℃",
+                "lowtemp": "22℃",
+                "type": "多云"
+            },
+            {
+                "date": "2015-08-07",
+                "week": "星期五",
+                "aqi": "91",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "30℃",
+                "lowtemp": "21℃",
+                "type": "多云"
+            },
+            {
+                "date": "2015-08-08",
+                "week": "星期六",
+                "aqi": "106",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "32℃",
+                "lowtemp": "23℃",
+                "type": "多云"
+            },
+            {
+                "date": "2015-08-09",
+                "week": "星期天",
+                "aqi": "151",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "33℃",
+                "lowtemp": "22℃",
+                "type": "晴"
+            },
+            {
+                "date": "2015-08-10",
+                "week": "星期一",
+                "aqi": "87",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "34℃",
+                "lowtemp": "22℃",
+                "type": "晴"
+            },
+            {
+                "date": "2015-08-11",
+                "week": "星期二",
+                "aqi": "140",
+                "fengxiang": "无持续风向",
+                "fengli": "微风级",
+                "hightemp": "34℃",
+                "lowtemp": "23℃",
+                "type": "多云"
+            },
+            {
+                "date": "2015-08-12",
+                "week": "星期三",
+                "aqi": "152",
+                "fengxiang": "南风",
+                "fengli": "3-4级",
+                "hightemp": "36℃",
+                "lowtemp": "24℃",
+                "type": "晴"
+            }
+        ]
+    }
+}

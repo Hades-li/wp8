@@ -86,8 +86,8 @@
     <Content Include="Assets\weather-icons\sun.png" />
     <Content Include="Assets\weather-icons\sun_cloud.png" />
     <Content Include="Assets\weather-icons\wind.png" />
+    <Content Include="json\baidu_weather.json" />
     <Content Include="json\weather.json" />
-    <None Include="json\weather_1.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

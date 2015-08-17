@@ -1,1 +1,1 @@
-D:\Develop workspace\GitHub\wp8\wp8-test\test4\test4.csproj;neutral
+D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test4\test4.csproj;neutral

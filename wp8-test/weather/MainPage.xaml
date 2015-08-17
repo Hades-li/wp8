@@ -12,6 +12,12 @@
         <convert:Week_convert x:Key="week_convert" />
         <convert:Weather_convert x:Key="weather_convert"/>
     </Page.Resources>
+    <!--菜单-->
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Name="command_resfresh" Label="刷新" Icon="Refresh" Click="command_resfresh_Click" IsCompact="True"/>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="300*"/>
@@ -48,7 +54,7 @@
                     </Image.Source>
                 </Image>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.wind}" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.fl}" FontSize="16"/>
             </Grid>
             <!--湿度-->
             <Grid Height="34" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
@@ -62,7 +68,7 @@
                 </Grid.RowDefinitions>
                 <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/humidity.png"/>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="湿度" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15" FontSize="16"/>
             </Grid>
             <!--空气质量-->
             <Grid Height="34" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
@@ -103,10 +109,14 @@
                     <DataTemplate>
                         <StackPanel>
                             <TextBlock FontSize="18" HorizontalAlignment="Center">
-            				<Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
+            				    <Run Text="{Binding Path=date,Converter={StaticResource week_convert}}"/>
                             </TextBlock>
                             <TextBlock FontSize="84" HorizontalAlignment="Center">
-            				<Run Text="{Binding temp}"/>
+            				    <Run Text="{Binding hightemp}"/>
+                            </TextBlock>
+                            <TextBlock FontSize="14" HorizontalAlignment="Center" Foreground="#b0d7f8"  >
+                                <Run Text="最低温 "/>
+                                <Run Text="{Binding lowtemp}"/>
                             </TextBlock>
                         </StackPanel>
                     </DataTemplate>
@@ -118,6 +128,10 @@
                         </TextBlock>
                         <TextBlock FontSize="84" HorizontalAlignment="Center">
             				<Run Text="15°"/>
+                        </TextBlock>
+                        <TextBlock FontSize="14" HorizontalAlignment="Center" Foreground="#b0d7f8"  >
+                            <Run Text="最低温 "/>
+                            <Run Text="15°"/>
                         </TextBlock>
                     </StackPanel>
                 </FlipViewItem>

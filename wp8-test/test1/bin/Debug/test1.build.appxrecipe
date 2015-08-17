@@ -1,85 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>HADES-NOTE</Machine>
-    <WindowsUser>Hades</WindowsUser>
+    <Machine>WORK-PC</Machine>
+    <WindowsUser>h.jiali2</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>8b0e3add-3669-4b78-9591-16a063ba438c</PackageIdentityName>
-    <IntermediateOutputPath>D:\Develop workspace\GitHub\wp8\wp8-test\test1\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\test1.exe">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\test1.exe">
       <PackagePath>test1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\DarkGray.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\LightGray.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\MediumGray.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\HubBackground.theme-dark.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\HubBackground.theme-dark.png">
       <PackagePath>Assets\HubBackground.theme-dark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\HubBackground.theme-light.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\HubBackground.theme-light.png">
       <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\Common\ReadMe.txt">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\DataModel\SampleData.json">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\HubPage.xbf">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\ItemPage.xbf">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\SectionPage.xbf">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\test1.xr.xml">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\test1.xr.xml">
       <PackagePath>test1.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Develop workspace\GitHub\wp8\wp8-test\test1\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\test1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
