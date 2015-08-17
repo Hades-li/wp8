@@ -12,6 +12,12 @@
         <convert:Week_convert x:Key="week_convert" />
         <convert:Weather_convert x:Key="weather_convert"/>
     </Page.Resources>
+    <!--菜单-->
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Name="command_resfresh" Label="刷新" Icon="Refresh" Click="command_resfresh_Click" IsCompact="True"/>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="300*"/>
@@ -62,7 +68,7 @@
                 </Grid.RowDefinitions>
                 <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/humidity.png"/>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="湿度" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15" FontSize="16"/>
             </Grid>
             <!--空气质量-->
             <Grid Height="34" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">

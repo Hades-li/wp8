@@ -8,7 +8,7 @@ using System.IO;
 using Windows.Storage;
 using Windows.Data.Json;
 using System.Collections.ObjectModel;
-using System.Net.Http;
+using System.Net;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -30,14 +30,27 @@ namespace weather
     {
         //每天的天气数据
         public string statues {get;set;}
-        //public string message {get;set;}
-        public string city {get;set;}
+        private string _city;
+        public string city 
+        { 
+            get
+            {
+                return _city;
+            }
+            set 
+            {
+                _city = value;
+                NotifyPropertyChanged("city");
+            } 
+        }
         public DateTime CurDate{get;set;}
         public ObservableCollection<Day> days{get;set;}
+        public ObservableCollection<int> indexs { get; set; }
 
         public Weather()
         {
             days = new ObservableCollection<Day>();
+            indexs = new ObservableCollection<int>();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -53,7 +66,14 @@ namespace weather
     public class dataSource
     {
         public Weather weather = null;
+        //构造函数
+        public dataSource()
+        {
+            weather = new Weather();
+
+        }
         //本地读取json
+        public const string localUrl = "ms-appx:///json/baidu_weather.json";
         public async Task<string> LocalLoadData(string filePath)
         {
             try
@@ -74,44 +94,45 @@ namespace weather
             return "load false";
         }
         //从网络读取天气的信息JSON的信息
-        public async Task<string> HttpLoadData(string url)
+        public const string httpUrl = "http://apis.baidu.com/apistore/weatherservice/recentweathers";
+        public string param = "cityname=南京&cityid=101190101";
+        //public string content = null;
+        public async Task<string> HttpLoadData(string url,string param)
         {
-            HttpClient hc = new HttpClient();
-            Uri uri = new Uri(url);
-            try
+            Uri uri = new Uri(url+"?"+param);
+            WebRequest request  = HttpWebRequest.Create(uri);
+            request.Method = "GET";
+            request.Headers["apikey"] = "8f8bc6149c5570fbf9e7486a843c1196";
+            WebResponse response = await request.GetResponseAsync();
+            Stream s = response.GetResponseStream();
+            StreamReader Reader = new StreamReader(s, Encoding.UTF8);
+            string StrDate = "";
+            string strValue = "";
+            while ((StrDate = Reader.ReadLine()) != null)
             {
-                string jsonString = await hc.GetStringAsync(uri);
-                Debug.WriteLine("json字符串:" + jsonString);
-                return jsonString;
+                strValue += StrDate + "\r\n";
             }
-            catch (Exception e)
-            {
-                Debug.WriteLine("http报错信息:" + e.ToString());
-                return "load false";
-            }
+            Debug.WriteLine(strValue);
+            return strValue;
         }
-
-        public const string httpUrl = "http://api.36wu.com/Weather/GetMoreWeather?district=南京&format=json";
-        //获得一周天气
-        public async Task<Weather> getWeather()
+        //Json数据解析
+        public void parseWeather(string weatherJson)
         {
-            string weatherJson = await LocalLoadData("ms-appx:///json/baidu_weather.json");
-            //string weatherJson = await HttpLoadJSON(httpUrl);
-            if (weatherJson != "load false")
+           
+            if (weatherJson != null)
             {
-                weather = new Weather();//创建weather
                 JsonObject jo = JsonObject.Parse(weatherJson);
 
                 weather.statues = jo.GetNamedString("errMsg");
 
                 JsonObject weatherJo = jo.GetNamedObject("retData");
                 weather.city = weatherJo.GetNamedString("city");
-               
-                
+
                 Debug.WriteLine("数据读取状态:" + weather.statues);
                 Debug.WriteLine("城市:" + weather.city);
 
-                
+
+                //weather.days.Add(new Day());
                 if (weather.statues == "success")
                 {
 
@@ -124,6 +145,7 @@ namespace weather
                     day.weather = todayJo.GetNamedString("type");
                     day.fl = todayJo.GetNamedString("fengli");
                     day.fx = todayJo.GetNamedString("fengxiang");
+                    weather.days.Clear();
                     weather.days.Add(day);
                     JsonArray ja = weatherJo.GetNamedArray("forecast");
 
@@ -137,27 +159,48 @@ namespace weather
                         day.weather = ja[i].GetObject().GetNamedString("type");
                         day.fl = ja[i].GetObject().GetNamedString("fengli");
                         day.fx = ja[i].GetObject().GetNamedString("fengxiang");
-                       
+
                         Debug.WriteLine("第" + i + "天");
                         Debug.WriteLine("日期(prase)：" + DateTime.Parse(day.date));
-                        Debug.WriteLine("温度：" + day.hightemp);
-                        Debug.WriteLine("温度：" + day.lowtemp);
+                        Debug.WriteLine("最高温度：" + day.hightemp);
+                        Debug.WriteLine("最低温度：" + day.lowtemp);
                         Debug.WriteLine("气候：" + day.weather);
                         Debug.WriteLine("风向：" + day.fx);
                         Debug.WriteLine("风力：" + day.fl);
                         weather.days.Add(day);
                     }
-                    return weather;
                 }
-                else
-                {
-                    return null;
-                }
-            }
-            else
-            {
-                return null;
             }
         }
+        //刷新数据
+        int index = 0;
+        public async void Resfresh()
+        {
+            if (index == 1)
+            {
+                param = "cityname=北京&cityid=101010100";
+                index = 0;
+            }else{
+                param = "cityname=南京&cityid=101190101";
+                index = 1;
+            }
+
+            string weatherJson = await HttpLoadData(httpUrl, param);
+
+            parseWeather(weatherJson);
+
+            //NotifyPropertyChanged("weather");
+            
+        }
+        
+        //获得一周天气
+        public Weather getWeather()
+        {
+
+            Resfresh();
+            return weather;
+        }
+
+        
     }
 }

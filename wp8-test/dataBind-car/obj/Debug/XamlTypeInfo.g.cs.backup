@@ -268,6 +268,11 @@ namespace dataBind_car.dataBind_car_XamlTypeInfo
             var that = (global::dataBind_car.MainPage)instance;
             return that.CarViewMode;
         }
+        private void set_0_MainPage_CarViewMode(object instance, object Value)
+        {
+            var that = (global::dataBind_car.MainPage)instance;
+            that.CarViewMode = (global::System.Collections.ObjectModel.ObservableCollection<global::dataBind_car.car>)Value;
+        }
         private object get_1_car_ID(object instance)
         {
             var that = (global::dataBind_car.car)instance;
@@ -320,7 +325,7 @@ namespace dataBind_car.dataBind_car_XamlTypeInfo
                 userType = (global::dataBind_car.dataBind_car_XamlTypeInfo.XamlUserType)GetXamlTypeByName("dataBind_car.MainPage");
                 xamlMember = new global::dataBind_car.dataBind_car_XamlTypeInfo.XamlMember(this, "CarViewMode", "System.Collections.ObjectModel.ObservableCollection`1<dataBind_car.car>");
                 xamlMember.Getter = get_0_MainPage_CarViewMode;
-                xamlMember.SetIsReadOnly();
+                xamlMember.Setter = set_0_MainPage_CarViewMode;
                 break;
             case "dataBind_car.car.ID":
                 userType = (global::dataBind_car.dataBind_car_XamlTypeInfo.XamlUserType)GetXamlTypeByName("dataBind_car.car");
