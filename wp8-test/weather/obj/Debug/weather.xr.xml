@@ -8,7 +8,6 @@
     <RootPropertyPathName Name="SelectedItem" />
     <RootPropertyPathName Name="weather" />
     <RootPropertyPathName Name="date" />
-    <RootPropertyPathName Name="Height" />
     <RootPropertyPathName Name="days" />
     <RootPropertyPathName Name="lowtemp" />
     <RootPropertyPathName Name="hightemp" />
@@ -46,8 +45,6 @@
       <RootProperty Name="Margin" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
@@ -57,7 +54,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Name" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
