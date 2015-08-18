@@ -9,21 +9,34 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     xmlns:convert="using:weather.Convert">
     <Page.Resources>
+       <!--转换-->
         <convert:Week_convert x:Key="week_convert" />
         <convert:Weather_convert x:Key="weather_convert"/>
+        <!--动画-->
+        <Storyboard x:Name="myStoryboard">
+            <DoubleAnimation 
+                EnableDependentAnimation="True"
+                Storyboard.TargetProperty="Opacity"
+                Storyboard.TargetName="w_img"
+                From="0" To="1" Duration="Automatic"
+                />
+        </Storyboard>
     </Page.Resources>
     <!--菜单-->
     <Page.BottomAppBar>
-        <CommandBar>
-            <AppBarButton x:ConnectionId='1' Name="command_resfresh" Label="刷新" Icon="Refresh"                                IsCompact="True"/>
+        <CommandBar  ClosedDisplayMode="Minimal">
+            <AppBarButton x:ConnectionId='1' Name="command_resfresh" Label="刷新" Icon="Refresh"                               />
         </CommandBar>
     </Page.BottomAppBar>
+   
+    <!--主体-->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="300*"/>
             <RowDefinition Height="164*"/>
             <RowDefinition Height="100*"/>
         </Grid.RowDefinitions>
+        <ProgressBar Name="top_pb" Grid.Row="0" VerticalAlignment="Top" IsIndeterminate="True" Canvas.ZIndex="500" Visibility="Collapsed"/>
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
@@ -104,7 +117,7 @@
                     </Polygon.Fill>
                 </Polygon>
             </Canvas>
-            <FlipView Name="FlipView_temp" Margin="0,8,0,0" Height="auto" ItemsSource="{Binding days}">
+            <FlipView x:ConnectionId='2' Name="FlipView_temp" Margin="0,8,0,0" Height="auto" ItemsSource="{Binding days}"                                                  >
                 <FlipView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
@@ -159,7 +172,7 @@
         		<Run Text=" , "/>
         		<Run Text="{Binding ElementName=FlipView_temp, Path=SelectedItem.date}" />
             </TextBlock>
-            <Image Width="150" Height="150" HorizontalAlignment="Center" >
+            <Image Name="w_img" Width="150" Height="150" HorizontalAlignment="Center">
                 <Image.Source>
                     <BitmapImage DecodePixelHeight="150" DecodePixelWidth="150" UriSource="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather,Converter={StaticResource weather_convert}}"/>
                 </Image.Source>
