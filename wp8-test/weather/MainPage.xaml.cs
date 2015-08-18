@@ -21,15 +21,17 @@ namespace weather
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
     /// 
-
+    
     public sealed partial class MainPage : Page
     {
-
+        
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+           
 
 
         }
@@ -43,6 +45,8 @@ namespace weather
         {
             // TODO: 准备此处显示的页面。
             this.DataContext = App.ds.getWeather();
+
+            
             //this.DataContext = await App.ds.getOneWeekWeather();//获取weather数据上下文
             // TODO: 如果您的应用程序包含多个页面，请确保
             // 通过注册以下事件来处理硬件“后退”按钮:
@@ -54,6 +58,23 @@ namespace weather
         private void command_resfresh_Click(object sender, RoutedEventArgs e)
         {
             App.ds.Resfresh();
+        }
+
+        private void FlipView_temp_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            myStoryboard.Begin();
+        }
+
+        public void on_prog(Boolean onOrOff)
+        {
+            if (onOrOff)
+            {
+                top_pb.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                top_pb.Visibility = Visibility.Collapsed;
+            }
         }
     }
 }

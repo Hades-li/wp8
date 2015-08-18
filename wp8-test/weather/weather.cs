@@ -11,6 +11,8 @@ using System.Collections.ObjectModel;
 using System.Net;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 
 namespace weather
 {
@@ -41,6 +43,7 @@ namespace weather
             {
                 _city = value;
                 NotifyPropertyChanged("city");
+                
             } 
         }
         public DateTime CurDate{get;set;}
@@ -99,6 +102,7 @@ namespace weather
         //public string content = null;
         public async Task<string> HttpLoadData(string url,string param)
         {
+            
             Uri uri = new Uri(url+"?"+param);
             WebRequest request  = HttpWebRequest.Create(uri);
             request.Method = "GET";
@@ -176,6 +180,14 @@ namespace weather
         int index = 0;
         public async void Resfresh()
         {
+            Frame frame = Window.Current.Content as Frame;
+            MainPage curPage = null;
+            if (frame != null)
+            {
+                curPage = frame.Content as MainPage;
+                curPage.on_prog(true);
+            }
+            
             if (index == 1)
             {
                 param = "cityname=北京&cityid=101010100";
@@ -189,8 +201,7 @@ namespace weather
 
             parseWeather(weatherJson);
 
-            //NotifyPropertyChanged("weather");
-            
+            curPage.on_prog(false);
         }
         
         //获得一周天气
