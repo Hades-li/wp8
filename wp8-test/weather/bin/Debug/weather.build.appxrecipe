@@ -67,9 +67,6 @@
     <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\json\weather.json">
       <PackagePath>json\weather.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\json\text.txt">
-      <PackagePath>json\text.txt</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\developSpace\wp8Space\GitHub\wp8\wp8-test\weather\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>

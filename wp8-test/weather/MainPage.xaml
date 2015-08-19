@@ -23,8 +23,8 @@
         </Storyboard>
     </Page.Resources>
     <!--菜单-->
-    <Page.BottomAppBar>
-        <CommandBar  ClosedDisplayMode="Minimal">
+    <Page.BottomAppBar >
+        <CommandBar ClosedDisplayMode="Minimal">
             <AppBarButton Name="command_resfresh" Label="刷新" Icon="Refresh" Click="command_resfresh_Click"/>
         </CommandBar>
     </Page.BottomAppBar>
@@ -50,52 +50,52 @@
                 </LinearGradientBrush>
             </Grid.Background>
             <!--风力-->
-            <Grid Height="34" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+            <Grid Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,18">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="26*"/>
-                    <ColumnDefinition Width="82*"/>
+                    <ColumnDefinition Width="32"/>
+                    <ColumnDefinition Width="50"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="14*"/>
-                    <RowDefinition Height="14*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <!--<Rectangle Width="24" Height="16" Grid.Column="0" Grid.Row="0" Fill="Red"/>-->
                 <!--<Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/wind.png"/>-->
-                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0">
+                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="0,-7,0,0">
                     <Image.Source>
                         <BitmapImage DecodePixelWidth="32" DecodePixelHeight="32" UriSource="/Assets/weather-icons/wind.png"/>
                     </Image.Source>
                 </Image>
-                <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.fl}" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16" HorizontalAlignment="Left"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="2-3级" FontSize="16" HorizontalAlignment="Left" Margin="0,-5,0,0"/>
             </Grid>
             <!--湿度-->
-            <Grid Height="34" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+            <Grid Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,18">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="26*"/>
-                    <ColumnDefinition Width="82*"/>
+                    <ColumnDefinition Width="32"/>
+                    <ColumnDefinition Width="50"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="14*"/>
-                    <RowDefinition Height="14*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/humidity.png"/>
+                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="0,-7,0,0" Source="/Assets/weather-icons/humidity.png"/>
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="湿度" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="15" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Width="32" Text="15" FontSize="16" Margin="0,-5,0,0"/>
             </Grid>
             <!--空气质量-->
-            <Grid Height="34" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,18">
+            <Grid Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,18">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="26*"/>
-                    <ColumnDefinition Width="82*"/>
+                    <ColumnDefinition Width="32"/>
+                    <ColumnDefinition Width="60"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="16*"/>
-                    <RowDefinition Height="16*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="-2,-7,0,0" Source="/Assets/weather-icons/glass.png"/>
-                <TextBlock Grid.Column="1" Grid.Row="0" Text="空气质量" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16"/>
+                <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="0,-7,0,0" Source="/Assets/weather-icons/glass.png"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="AQI" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="15mph" FontSize="16" Margin="0,-5,0,0"/>
             </Grid>
         </Grid>
         <StackPanel Name="sp" Grid.Row="1" Height="auto" VerticalAlignment="Top">
