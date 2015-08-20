@@ -11,6 +11,8 @@
     <RootPropertyPathName Name="days" />
     <RootPropertyPathName Name="lowtemp" />
     <RootPropertyPathName Name="hightemp" />
+    <RootPropertyPathName Name="aqi" />
+    <RootPropertyPathName Name="fl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />

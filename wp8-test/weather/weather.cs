@@ -24,6 +24,7 @@ namespace weather
         public string weather { get; set; }
         public string fx { get; set; }
         public string fl { get; set; }
+        public string aqi { get; set; }
         public string img_0 { get; set; }
         public string img_1 { get; set; }
     }
@@ -149,6 +150,7 @@ namespace weather
                     day.weather = todayJo.GetNamedString("type");
                     day.fl = todayJo.GetNamedString("fengli");
                     day.fx = todayJo.GetNamedString("fengxiang");
+                    day.aqi = todayJo.GetNamedString("aqi");
                     weather.days.Clear();
                     weather.days.Add(day);
                     JsonArray ja = weatherJo.GetNamedArray("forecast");
