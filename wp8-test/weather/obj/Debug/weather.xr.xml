@@ -98,6 +98,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Transitions" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontWeight" />
@@ -124,6 +125,7 @@
       <RootProperty Name="UriSource" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Text" />
