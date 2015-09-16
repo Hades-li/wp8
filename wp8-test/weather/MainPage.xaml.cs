@@ -62,7 +62,7 @@ namespace weather
 
         private void FlipView_temp_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            myStoryboard.Begin();
+            //myStoryboard.Begin();
         }
 
         public void on_prog(Boolean onOrOff)
