@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots >
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
   <Roots.Interfaces>
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
@@ -12,6 +12,7 @@
     <RootPropertyPathName Name="lowtemp" />
     <RootPropertyPathName Name="hightemp" />
     <RootPropertyPathName Name="aqi" />
+    <RootPropertyPathName Name="fx" />
     <RootPropertyPathName Name="fl" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -84,6 +85,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="ChildrenTransitions" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ContentThemeTransition">
+      <RootProperty Name="HorizontalOffset" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="StartPoint" />
@@ -125,7 +131,6 @@
       <RootProperty Name="UriSource" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Text" />

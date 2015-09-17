@@ -69,7 +69,7 @@
                 <TextBlock Grid.Column="1" Grid.Row="0" Text="风力" FontSize="16" HorizontalAlignment="Left"/>
                 <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=FlipView_temp, Path=SelectedItem.fl}" FontSize="16" HorizontalAlignment="Left" Margin="0,-5,0,0"/>
             </Grid>
-            <!--湿度-->
+            <!--风向-->
             <Grid Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,18">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="32"/>
@@ -80,8 +80,8 @@
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <Image Width="32" Height="32" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="0,-7,0,0" Source="/Assets/weather-icons/humidity.png"/>
-                <TextBlock Grid.Column="1" Grid.Row="0" Text="湿度" FontSize="16"/>
-                <TextBlock Grid.Column="1" Grid.Row="1" Width="32" Text="15" FontSize="16" Margin="0,-5,0,0"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="风向" FontSize="16"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Width="32" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.fx}" FontSize="16" Margin="0,-5,0,0"/>
             </Grid>
             <!--空气质量-->
             <Grid Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,18">
@@ -161,6 +161,11 @@
             </FlipView>
         </StackPanel>
         <StackPanel Grid.Row="0">
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <ContentThemeTransition HorizontalOffset="200"/>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
             <StackPanel.Background>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                     <GradientStop Color="#c9a27b" Offset="0"/>
@@ -169,7 +174,9 @@
             </StackPanel.Background>
             <TextBlock FontSize="14" Margin="0,24,0,20"  TextAlignment="Center">
                 <TextBlock.Transitions>
-                    <EntranceThemeTransition></EntranceThemeTransition>
+                    <TransitionCollection>
+                        <ContentThemeTransition />
+                    </TransitionCollection>
                 </TextBlock.Transitions>
         		<Run FontWeight="Bold" Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.date, Converter={StaticResource week_convert}}"/>
         		<Run Text=" , "/>
@@ -179,7 +186,6 @@
                 <Image.Source>
                     <BitmapImage DecodePixelHeight="150" DecodePixelWidth="150" UriSource="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather,Converter={StaticResource weather_convert}}"/>
                 </Image.Source>
-                
             </Image>
             <TextBlock Text="{Binding ElementName=FlipView_temp,Path=SelectedItem.weather}" Margin="0,10,0,10" FontSize="28" FontWeight="Bold" TextAlignment="Center" />
             <TextBlock Text="{Binding city}" FontSize="14" TextAlignment="Center" />
